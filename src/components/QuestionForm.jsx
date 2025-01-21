@@ -12,10 +12,12 @@ function QuestionForm() {
 
   // Define ID ranges for each practice set
   const idRanges = {
-    all: [1, 300], // All questions (1-300)
+    all: [1, 600], // All questions (1-300)
+    allpracticeset:[1,148],
     practiceSet1: [1, 69], // Practice Set 1 (1-100)
     practiceSet2: [70, 103], // Practice Set 2 (101-200)
     practiceSet3: [104, 148], // Practice Set 3 (201-300)
+
   };
 
   // Function to filter questions by ID range
@@ -80,10 +82,11 @@ function QuestionForm() {
               onChange={(e) => setQuestionType(e.target.value)}
               className="mt-2 border border-gray-300 p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              <option value="all">All Questions (1-300)</option>
-              <option value="practiceSet1">Practice Question Set 1</option>
-              <option value="practiceSet2">Practice Question Set 2</option>
-              <option value="practiceSet3">Practice Question Set 3</option>
+              <option value="all">All Questions (1-600)</option>
+              <option value="allpracticeset">All Practice Set (1-148)</option>
+              <option value="practiceSet1">Practice Question Set 1 (1-69)</option>
+              <option value="practiceSet2">Practice Question Set 2 (1-34)</option>
+              <option value="practiceSet3">Practice Question Set 3 (1-45)</option>
             </select>
           </label>
 
