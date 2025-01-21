@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import questionsData from "../data/questions.json";
+import Vertical1 from "../ads/vertical1"; // Left ad
+import Vertical2 from "../ads/vertical1"; // Right ad
 
 function Quiz() {
   const { state } = useLocation();
@@ -64,7 +66,6 @@ function Quiz() {
       }, 100); // Give time for state update
     }
   };
-  
 
   if (questions.length === 0) {
     return <div>Loading questions...</div>;
@@ -73,24 +74,37 @@ function Quiz() {
   const currentQuestion = questions[currentQuestionIndex];
 
   return (
-    <div className="p-8 bg-gradient-to-r from-blue-200 to-purple-300 min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-6 shadow-lg">Quiz Time!</h1>
-      <div className="bg-white rounded-lg shadow-md p-6 w-full max-w-md">
-        <p className="text-lg font-semibold text-gray-700 mb-2">
-          Question {currentQuestionIndex + 1}/{numQuestions}
-        </p>
-        <p className="text-xl font-medium text-gray-800 mb-4">{currentQuestion.question}</p>
-        <div className="flex flex-col space-y-4">
-          {currentQuestion.options.map((option) => (
-            <button
-              key={option}
-              onClick={() => handleAnswer(option)}
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg transition-transform transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
-            >
-              {option}
-            </button>
-          ))}
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-200 to-purple-300">
+      {/* Left Ad */}
+      <div className="hidden lg:block w-1/5">
+        <Vertical1 />
+      </div>
+
+      {/* Main Content */}
+      <div className="flex flex-col items-center justify-center w-full lg:w-3/5">
+        <h1 className="text-4xl font-extrabold text-gray-800 mb-6 shadow-lg">Quiz Time!</h1>
+        <div className="bg-white rounded-lg shadow-md p-6 w-full max-w-md">
+          <p className="text-lg font-semibold text-gray-700 mb-2">
+            Question {currentQuestionIndex + 1}/{numQuestions}
+          </p>
+          <p className="text-xl font-medium text-gray-800 mb-4">{currentQuestion.question}</p>
+          <div className="flex flex-col space-y-4">
+            {currentQuestion.options.map((option) => (
+              <button
+                key={option}
+                onClick={() => handleAnswer(option)}
+                className="bg-blue-600 text-white px-6 py-3 rounded-lg transition-transform transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+              >
+                {option}
+              </button>
+            ))}
+          </div>
         </div>
+      </div>
+
+      {/* Right Ad */}
+      <div className="hidden lg:block w-1/5">
+        <Vertical2 />
       </div>
     </div>
   );

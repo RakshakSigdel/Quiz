@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Vertical1 from "../ads/vertical1"; // Ad component for the left
+import Vertical2 from "../ads/vertical1"; // Ad component for the right
 
 function QuestionForm() {
   const [numQuestions, setNumQuestions] = useState(1);
@@ -11,28 +13,46 @@ function QuestionForm() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-200 to-blue-300">
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-6 shadow-lg">Welcome to the Quiz App!</h1>
-      <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-6 w-full max-w-sm space-y-6">
-        <label className="block text-lg font-medium text-gray-700">
-          How many questions do you want to solve?
-          <input
-            type="number"
-            min="1"
-            max="500"
-            value={numQuestions}
-            onChange={(e) => setNumQuestions(e.target.value)}
-            className="mt-2 border border-gray-300 p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
-            placeholder="Enter a number between 1 and 500"
-          />
-        </label>
-        <button
-          type="submit"
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg transition-transform transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-200 to-blue-300">
+      {/* Left Ad */}
+      <div className="hidden lg:block w-1/5">
+        <Vertical1 />
+      </div>
+
+      {/* Main Content */}
+      <div className="flex flex-col items-center justify-center w-full lg:w-3/5">
+        <h1 className="text-4xl font-extrabold text-gray-800 mb-6 shadow-lg">
+          Welcome to the Quiz App!
+        </h1>
+        <form
+          onSubmit={handleSubmit}
+          className="bg-white rounded-lg shadow-md p-6 w-full max-w-sm space-y-6"
         >
-          Start Quiz
-        </button>
-      </form>
+          <label className="block text-lg font-medium text-gray-700">
+            How many questions do you want to solve?
+            <input
+              type="number"
+              min="1"
+              max="500"
+              value={numQuestions}
+              onChange={(e) => setNumQuestions(e.target.value)}
+              className="mt-2 border border-gray-300 p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Enter a number between 1 and 500"
+            />
+          </label>
+          <button
+            type="submit"
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg transition-transform transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+          >
+            Start Quiz
+          </button>
+        </form>
+      </div>
+
+      {/* Right Ad */}
+      <div className="hidden lg:block w-1/5">
+        <Vertical2 />
+      </div>
     </div>
   );
 }
