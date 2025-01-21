@@ -3,40 +3,41 @@ import { useNavigate } from "react-router-dom";
 import Vertical1 from "../ads/vertical1"; // Ad component for the left
 import Vertical2 from "../ads/vertical1"; // Ad component for the right
 
-// Sample JSON import or loading mechanism (this could be replaced with an API call or dynamic imports)
-
-import allquestion from "../data/questions.json";
-import practicequestion1 from "../data/practicequestion1.json";
-import practicequestion2 from "../data/practicequestion2.json";
-import practicequestion3 from "../data/practicequestion3.json";
+import allQuestions from "../data/questions.json"; // Import all questions
 
 function QuestionForm() {
   const [numQuestions, setNumQuestions] = useState(1);
-  const [questionType, setQuestionType] = useState("allquestion"); // Default question type
+  const [questionType, setQuestionType] = useState("all"); // Default question type
   const navigate = useNavigate();
+
+  // Define ID ranges for each practice set
+  const idRanges = {
+    all: [1, 300], // All questions (1-300)
+    practiceSet1: [1, 69], // Practice Set 1 (1-100)
+    practiceSet2: [70, 103], // Practice Set 2 (101-200)
+    practiceSet3: [104, 148], // Practice Set 3 (201-300)
+  };
+
+  // Function to filter questions by ID range
+  const filterQuestionsByIdRange = (range) => {
+    return allQuestions.filter(
+      (question) => question.id >= range[0] && question.id <= range[1]
+    );
+  };
 
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Depending on the selected question type, pass the data as state to the quiz page
+
+    // Determine the question data based on the selected type
     let questionData;
-    switch (questionType) {
-      case "allquestion":
-        questionData = allquestion;
-        break;
-      case "practicequestion1":
-        questionData = practicequestion1;
-        break;
-      case "practicequestion2":
-        questionData = practicequestion2;
-        break;
-      case "practicequestion3":
-        questionData = practicequestion3;
-        break;
-      default:
-        questionData = allquestion; // Default to practicequestion1
+    if (questionType === "all") {
+      questionData = allQuestions; // All questions
+    } else {
+      const range = idRanges[questionType];
+      questionData = filterQuestionsByIdRange(range);
     }
-    
+
     // Navigate to the quiz page with the selected number of questions and data
     navigate("/quiz", { state: { numQuestions, questionData } });
   };
@@ -65,7 +66,7 @@ function QuestionForm() {
               min="1"
               max="500"
               value={numQuestions}
-              onChange={(e) => setNumQuestions(e.target.value)}
+              onChange={(e) => setNumQuestions(Number(e.target.value))}
               className="mt-2 border border-gray-300 p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Enter a number of questions you want to solve"
             />
@@ -79,10 +80,10 @@ function QuestionForm() {
               onChange={(e) => setQuestionType(e.target.value)}
               className="mt-2 border border-gray-300 p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              <option value="allquestion">All  Questions</option>
-              <option value="practicequestion1">Practice Question Set 1 69 questions</option>
-              <option value="practicequestion2">Practice Question Set 2 34 questions</option>
-              <option value="practicequestion3">Practice Question Set 3 45 questions</option>
+              <option value="all">All Questions (1-300)</option>
+              <option value="practiceSet1">Practice Question Set 1</option>
+              <option value="practiceSet2">Practice Question Set 2</option>
+              <option value="practiceSet3">Practice Question Set 3</option>
             </select>
           </label>
 
