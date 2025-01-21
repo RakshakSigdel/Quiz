@@ -80,9 +80,9 @@ function QuestionForm() {
               className="mt-2 border border-gray-300 p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="allquestion">All  Questions</option>
-              <option value="practicequestion1">Practice Question Set 1</option>
-              <option value="practicequestion2">Practice Question Set 2</option>
-              <option value="practicequestion3">Practice Question Set 3</option>
+              <option value="practicequestion1">Practice Question Set 1 69 questions</option>
+              <option value="practicequestion2">Practice Question Set 2 34 questions</option>
+              <option value="practicequestion3">Practice Question Set 3 45 questions</option>
             </select>
           </label>
 
