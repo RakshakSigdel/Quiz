@@ -1659,16 +1659,14 @@
   },
   {
     "id": 152,
-    "question": "Refer to the exhibit. Which three ports are identified with the letters A, B, and C in the Picture? (Choose three.)",
+    "question": "If virtualization is not supported on your PC, where should you enable it from?",
     "options": [
-      "Modem",
-      "Network",
-      "Parallel",
-      "PS/2",
-      "Serial",
-      "VGA"
+      "Device Manager",
+      "BIOS",
+      "Event Viewer",
+      "Registry Editor"
     ],
-    "correct": ["Modem", "Network", "VGA"]
+    "correct": ["BIOS"]
   },
   {
     "id": 153,
