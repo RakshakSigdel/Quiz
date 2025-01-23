@@ -2042,5 +2042,610 @@
       "Hyper-V"
     ],
     "correct": "Windows subsystem for Linux"
+  },
+  {
+    "id": 187,
+    "question": "Which of the following is considered as a secondary memory device?",
+    "options": [
+      "RAM",
+      "Cache",
+      "ROM",
+      "Hard drive"
+    ],
+    "correct": "Hard drive"
+  },
+  {
+    "id": 188,
+    "question": "What is the WLAN adapter card in desktop PCs used for?",
+    "options": [
+      "Wizard Connectivity",
+      "Video",
+      "Audio",
+      "Wireless connectivity"
+    ],
+    "correct": "Wireless connectivity"
+  },
+  {
+    "id": 189,
+    "question": "Which of the following is an example of a program?",
+    "options": [
+      "MacOS",
+      "Receiver",
+      "Java",
+      "Facebook"
+    ],
+    "correct": "Java"
+  },
+  {
+    "id": 190,
+    "question": "What instructs the computer on how to operate?",
+    "options": [
+      "Operating system",
+      "Firewall",
+      "Hardware",
+      "Software"
+    ],
+    "correct": "Operating system"
+  },
+  {
+    "id": 191,
+    "question": "Computer cases contain a framework to support __________ components.",
+    "options": [
+      "Internal",
+      "Upgrade",
+      "Outer peripherals",
+      "External"
+    ],
+    "correct": "Internal"
+  },
+  {
+    "id": 192,
+    "question": "Out of the following options, which one is not an expansion slot?",
+    "options": [
+      "BIOS",
+      "AGP",
+      "PCIe",
+      "PCI"
+    ],
+    "correct": "BIOS"
+  },
+  {
+    "id": 193,
+    "question": "Processors are inserted into the socket with a mechanism called _________",
+    "options": [
+      "LIF",
+      "PIF",
+      "ZIF",
+      "AIF"
+    ],
+    "correct": "ZIF"
+  },
+  {
+    "id": 194,
+    "question": "The data from EPROM can be erased using",
+    "options": [
+      "None of the above",
+      "UV rays",
+      "Both A and B",
+      "Electric signals"
+    ],
+    "correct": "UV rays"
+  },
+  {
+    "id": 195,
+    "question": "What determines the type of case a motherboard needs and provides maximum slot limit?",
+    "options": [
+      "Form Factor",
+      "Chipset",
+      "Component",
+      "Expansion Slot"
+    ],
+    "correct": "Form Factor"
+  },
+  {
+    "id": 196,
+    "question": "How does parallel port communicate information to a peripheral device?",
+    "options": [
+      "One bit at a time",
+      "One byte at a time",
+      "8 bytes at a time",
+      "16,555 bytes at a time"
+    ],
+    "correct": "One bit at a time"
+  },
+  {
+    "id": 197,
+    "question": "Hot swappable bus includes _________",
+    "options": [
+      "AGP",
+      "USB",
+      "PCI",
+      "ISA"
+    ],
+    "correct": "USB"
+  },
+  {
+    "id": 198,
+    "question": "How much pin does a DDR4-RAM have?",
+    "options": [
+      "240",
+      "180",
+      "288",
+      "280"
+    ],
+    "correct": "288"
+  },
+  {
+    "id": 199,
+    "question": "What is a significant disadvantage of RAID 0?",
+    "options": [
+      "Lower read and write speeds",
+      "Reduced storage efficiency",
+      "No redundancy, making it not fault-tolerant",
+      "Requires at least 3 drives"
+    ],
+    "correct": "No redundancy, making it not fault-tolerant"
+  },
+  {
+    "id": 200,
+    "question": "In RAID 5, suppose there are 3 disks and each has a capacity of 1 TB. In this situation, how much capacity is used for parity?",
+    "options": [
+      "1 TB",
+      "2.5 TB",
+      "2 TB",
+      "3 TB"
+    ],
+    "correct": "1 TB"
+  },
+  {
+    "id": 201,
+    "question": "In RAID, a method of storing duplicate data in second drive is known as _______.",
+    "options": [
+      "Copying",
+      "Mirroring",
+      "Pasting",
+      "Striping"
+    ],
+    "correct": "Mirroring"
+  },
+  {
+    "id": 202,
+    "question": "RAID 6 array requires at least _______ drives.",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correct": "4"
+  },
+  {
+    "id": 203,
+    "question": "Which RAID level provides no fault tolerance but offers improved performance through striping?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 6"
+    ],
+    "correct": "RAID 0"
+  },
+  {
+    "id": 204,
+    "question": "What is the full form of RAID?",
+    "options": [
+      "Regained Array of Independent Disk",
+      "Redundant Array of Independent Disk",
+      "Risk-less Array of Independent Disk",
+      "Restrained Array of Independent Disk"
+    ],
+    "correct": "Redundant Array of Independent Disk"
+  },
+  {
+    "id": 205,
+    "question": "Which type of RAID uses parity data written to two drives, allowing it to withstand two simultaneous drive failures?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 6"
+    ],
+    "correct": "RAID 6"
+  },
+  {
+    "id": 206,
+    "question": "When installing adapter cards in a computer, how should a technician properly secure the card?",
+    "options": [
+      "Install the card, and secure it to the case with a screw.",
+      "Install the card, and attach it to the expansion slot using thermal paste.",
+      "Install the card, and attach it to the motherboard using thermal pads.",
+      "Install the card, and secure it using metal retaining clips located on the expansion slot."
+    ],
+    "correct": "Install the card, and secure it to the case with a screw."
+  },
+  {
+    "id": 207,
+    "question": "Hard Drives are installed in _______ drive bays.",
+    "options": [
+      "2.5 inch",
+      "3.5 inch",
+      "4.5 inch",
+      "5.5 inch"
+    ],
+    "correct": "3.5 inch"
+  },
+  {
+    "id": 208,
+    "question": "__________ computers are generally built by collecting their components or parts from different manufacturers.",
+    "options": [
+      "Assembled",
+      "Proprietary",
+      "Branded",
+      "Sealed"
+    ],
+    "correct": "Assembled"
+  },
+  {
+    "id": 209,
+    "question": "When mounting a motherboard in a computer case, what does the technician use to prevent the motherboard from touching the bottom of the case?",
+    "options": [
+      "Ground-fault isolators",
+      "Silicon spray",
+      "Standoffs",
+      "Grounding straps"
+    ],
+    "correct": "Standoffs"
+  },
+  {
+    "id": 210,
+    "question": "Which connector is used to connect external peripherals?",
+    "options": [
+      "PS/2",
+      "Molex",
+      "PATA",
+      "EIDE"
+    ],
+    "correct": "PS/2"
+  },
+  {
+    "id": 211,
+    "question": "What is the common size of the optical drive bay in an ATX case?",
+    "options": [
+      "2.25 inches",
+      "4.25 inches",
+      "3.25 inches",
+      "5.25 inches"
+    ],
+    "correct": "5.25 inches"
+  },
+  {
+    "id": 212,
+    "question": "When a technician installs a new CPU, what will help maintain even contact and heat distribution between the CPU and heat sink?",
+    "options": [
+      "Glue",
+      "Thermal compound",
+      "Silicon spray",
+      "Graphite paste"
+    ],
+    "correct": "Thermal compound"
+  },
+  {
+    "id": 213,
+    "question": "A technician is installing a new power supply in a computer. Which type of power connector should be used to connect to a CD-ROM?",
+    "options": [
+      "Berg",
+      "Mini-Molex",
+      "Molex",
+      "20-pin ATX connector"
+    ],
+    "correct": "Molex"
+  },
+  {
+    "id": 214,
+    "question": "A technician is installing additional memory in a computer. How can the technician guarantee that the memory is correctly aligned?",
+    "options": [
+      "The label on the memory module should always face the CPU.",
+      "All memory and motherboard slots are color-coded, with one red end and one blue end",
+      "The arrows on the memory module should be aligned with the arrows on the motherboard",
+      "A notch in the memory module should be aligned with a notch in the memory slot."
+    ],
+    "correct": "A notch in the memory module should be aligned with a notch in the memory slot."
+  },
+  {
+    "id": 215,
+    "question": "Which mechanism should be used to install a CPU on the motherboard?",
+    "options": [
+      "ZIF",
+      "GIF",
+      "DIF",
+      "FIG"
+    ],
+    "correct": "ZIF"
+  },
+  {
+    "id": 216,
+    "question": "Fans needs power and uses ______ connectors.",
+    "options": [
+      "3 pin",
+      "5 pin",
+      "1 pin",
+      "7 pin"
+    ],
+    "correct": "3 pin"
+  },
+  {
+    "id": 217,
+    "question": "Which of the following common tasks is performed during preventive maintenance?",
+    "options": [
+      "Troubleshoot the internet connectivity",
+      "Clean the mouse and keyboard.",
+      "Reinstall the operating system.",
+      "Install additional peripherals."
+    ],
+    "correct": "Clean the mouse and keyboard."
+  },
+  {
+    "id": 218,
+    "question": "Which type of question allows the customer to completely describe the problem?",
+    "options": [
+      "Specific",
+      "Technical",
+      "Open-ended",
+      "Closed-ended"
+    ],
+    "correct": "Open-ended"
+  },
+  {
+    "id": 219,
+    "question": "Which information cannot be found from event viewer?",
+    "options": [
+      "Event ID number",
+      "Source of the problem",
+      "Device Configuration",
+      "Date and time of the problem"
+    ],
+    "correct": "Device Configuration"
+  },
+  {
+    "id": 220,
+    "question": "Which of these is an open ended question?",
+    "options": [
+      "Has anyone else used your computer recently?",
+      "Have you received any error message on your computer?",
+      "Can you reproduce the problem?",
+      "What problem are you experiencing with your computer?"
+    ],
+    "correct": "What problem are you experiencing with your computer?"
+  },
+  {
+    "id": 221,
+    "question": "Which recommendation should be followed first when a fire in the workplace is out of control?",
+    "options": [
+      "Try to control the fire with proper extinguisher.",
+      "Try to use elevators to get to the lowest floor faster.",
+      "Use the company water system to stop the fire from extending to other areas.",
+      "Get out of the room or building and contact emergency services for help."
+    ],
+    "correct": "Get out of the room or building and contact emergency services for help."
+  },
+  {
+    "id": 222,
+    "question": "What is the shortcut to open event viewer?",
+    "options": [
+      "Eventviewer.msc",
+      "Eventvwr.msc",
+      "Evntviewer.msc",
+      "Evntvwr.msc"
+    ],
+    "correct": "Eventvwr.msc"
+  },
+  {
+    "id": 223,
+    "question": "Which of the following would be a logical first step in troubleshooting a PC?",
+    "options": [
+      "Define what applications are being used",
+      "Check the computer CMOS",
+      "Define the circumstances of the problem",
+      "Call the vendor"
+    ],
+    "correct": "Define the circumstances of the problem"
+  },
+  {
+    "id": 224,
+    "question": "In device manager, what does 'Red Circle with an X' mean?",
+    "options": [
+      "Hardware not functioning properly due to unknown driver to install",
+      "Device is disabled",
+      "Device acting incorrectly",
+      "Device is functioning properly"
+    ],
+    "correct": "Device is disabled"
+  },
+  {
+    "id": 225,
+    "question": "Which would you do first when troubleshooting a faulty monitor?",
+    "options": [
+      "Power down the monitor, then turn it on again to see if that corrects the problem",
+      "Power down the computer, then turn it on again to see if that corrects the problem",
+      "Use a meter to check the CRT and internal circuitry for continuity",
+      "Check its connections to the computer and power source"
+    ],
+    "correct": "Check its connections to the computer and power source"
+  },
+  {
+    "id": 226,
+    "question": "In which of the following situations is it recommended to ask the customer to sign a liability release form before attempting any kind of repair?",
+    "options": [
+      "The technician needs to share the responsibility with the customer.",
+      "The information on the computer is critical.",
+      "The information in the backup is confidential",
+      "The technician is unable to back up the customer information."
+    ],
+    "correct": "The technician is unable to back up the customer information."
+  },
+  {
+    "id": 227,
+    "question": "______________ is a regular and systematic inspection, cleaning, and replacement of worn parts, materials, and systems.",
+    "options": [
+      "Cigarette Computer",
+      "Troubleshooting",
+      "Preventive maintenance",
+      "MSDS"
+    ],
+    "correct": "Preventive maintenance"
+  },
+  {
+    "id": 228,
+    "question": "Which type of operating system is mostly used for document formatting and web surfing?",
+    "options": [
+      "Mobile Operating System",
+      "Network Operating System",
+      "Desktop Operating System",
+      "Server Operating System"
+    ],
+    "correct": "Desktop Operating System"
+  },
+  {
+    "id": 229,
+    "question": "Which of the following is not a Linux based network operating system?",
+    "options": [
+      "Fedora",
+      "Red hat",
+      "Nvidia",
+      "CentOS"
+    ],
+    "correct": "Nvidia"
+  },
+  {
+    "id": 230,
+    "question": "In which of the following operating mode, can a CPU execute one instruction at a time?",
+    "options": [
+      "Real Mode",
+      "Protected Mode",
+      "Virtual Real Mode",
+      "Compatibility Mode"
+    ],
+    "correct": "Real Mode"
+  },
+  {
+    "id": 231,
+    "question": "____________ is a set of guidelines used by programmers to ensure that the application they are developing is compatible with an operating system.",
+    "options": [
+      "OpenGL",
+      "OS",
+      "DirectX",
+      "API"
+    ],
+    "correct": "API"
+  },
+  {
+    "id": 232,
+    "question": "A track is divided into _________, which is generally 512 bytes.",
+    "options": [
+      "Cluster",
+      "Sector",
+      "Cylinder",
+      "Head"
+    ],
+    "correct": "Sector"
+  },
+  {
+    "id": 233,
+    "question": "What is the purpose of the Microsoft Hardware Compatibility List?",
+    "options": [
+      "It lists the Microsoft software that runs on the listed hardware.",
+      "It lists all the hardware that runs Microsoft Office software.",
+      "It lists hardware that is supported by a Microsoft operating system.",
+      "It lists hardware that works together."
+    ],
+    "correct": "It lists hardware that is supported by a Microsoft operating system."
+  },
+  {
+    "id": 234,
+    "question": "Which file system is recommended for Windows XP for large file support and enhanced security?",
+    "options": [
+      "DirectX",
+      "DOS",
+      "FAT32",
+      "NTFS"
+    ],
+    "correct": "NTFS"
+  },
+  {
+    "id": 235,
+    "question": "Which of the following is one of the benefits of network operating system?",
+    "options": [
+      "Supports a single user",
+      "Run single user applications",
+      "Administrative skills required",
+      "Supports multiple user"
+    ],
+    "correct": "Supports multiple user"
+  },
+  {
+    "id": 236,
+    "question": "Which registry file contains information about the hardware and software in the computer system?",
+    "options": [
+      "HKEY_LOCAL_MACHINE",
+      "HKEY_USERS",
+      "HKEY_CURRENT_USER",
+      "HKEY_CLASSES_ROOT"
+    ],
+    "correct": "HKEY_LOCAL_MACHINE"
+  },
+  {
+    "id": 237,
+    "question": "Which of these utility displays a complete system summary of your computer including hardware components and details, and installed software and settings?",
+    "options": [
+      "msinfo32",
+      "regedit",
+      "cmd",
+      "msconfig"
+    ],
+    "correct": "msinfo32"
+  },
+  {
+    "id": 238,
+    "question": "Which of the following keys is not a BIOS key?",
+    "options": [
+      "F10",
+      "F2",
+      "Delete",
+      "Capslock"
+    ],
+    "correct": "Capslock"
+  },
+  {
+    "id": 239,
+    "question": "Which open-source operating system is available on multiple hardware platforms?",
+    "options": [
+      "Windows XP",
+      "Windows 2000",
+      "Linux",
+      "Mac OS X"
+    ],
+    "correct": "Linux"
+  },
+  {
+    "id": 240,
+    "question": "……….. is a software that creates and runs virtual machine.",
+    "options": [
+      "Disk manager",
+      "Active directory",
+      "Hypervisor",
+      "Supervisor"
+    ],
+    "correct": "Hypervisor"
+  },
+  {
+    "id": 241,
+    "question": "How can the command line be accessed in Windows XP?",
+    "options": [
+      "Start > All programs > Accessories > Terminal",
+      "Start > Control Panel > Prompt",
+      "Start > Run > cmd",
+      "Start > Run > Prompt"
+    ],
+    "correct": "Start > Run > cmd"
   }
 ]
