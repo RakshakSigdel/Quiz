@@ -219,7 +219,6 @@
     ],
     "correct": "d) All of the above"
   },
-  
   {
     "id": 21,
     "question": "Choose the Types of Ram.",
@@ -1666,7 +1665,9 @@
       "Event Viewer",
       "Registry Editor"
     ],
-    "correct": ["BIOS"]
+    "correct": [
+      "BIOS"
+    ]
   },
   {
     "id": 153,
@@ -1931,6 +1932,115 @@
       "3d scanner"
     ],
     "correct": "Drum scanner"
+  },
+  {
+    "id": 177,
+    "question": "Where can you check the boot sequence from?",
+    "options": [
+      "BIOS interface",
+      "User creation interface",
+      "Internal part of the computer",
+      "CMOS"
+    ],
+    "correct": "BIOS interface"
+  },
+  {
+    "id": 178,
+    "question": "What should be installed first, USB device or USB driver?",
+    "options": [
+      "USB Device",
+      "USB Driver",
+      "It doesn't matter",
+      "It depends on the device"
+    ],
+    "correct": "USB Driver"
+  },
+  {
+    "id": 179,
+    "question": "Which of the following is one of the disadvantages of network operating system?",
+    "options": [
+      "Multi-user Support",
+      "Less Secure",
+      "Robust",
+      "Specialists staff required"
+    ],
+    "correct": "Specialists staff required"
+  },
+  {
+    "id": 180,
+    "question": "Which of the following is not required to install an Operating System in a virtualization environment?",
+    "options": [
+      "ISO image file",
+      "Virtual hard disk",
+      "Bootable pen drive",
+      "Hypervisor"
+    ],
+    "correct": "Bootable pen drive"
+  },
+  {
+    "id": 181,
+    "question": "Which of the following is one of the bootable disk preparation software tools?",
+    "options": [
+      "VMWare Workstation",
+      "Hyper-V",
+      "Virtual Box",
+      "Rufus"
+    ],
+    "correct": "Rufus"
+  },
+  {
+    "id": 182,
+    "question": "How can we open virtual memory?",
+    "options": [
+      "Start > virtual memory",
+      "Start > control panel > disk management > virtual memory",
+      "Start > run > virtual memory",
+      "Start > Control Panel > System > Advanced tab > Performance, click Settings button>Advanced tab>virtual memory"
+    ],
+    "correct": "Start > Control Panel > System > Advanced tab > Performance, click Settings button>Advanced tab>virtual memory"
+  },
+  {
+    "id": 183,
+    "question": "A basic disk that is being converted to dynamic disk is known as _______",
+    "options": [
+      "Missing",
+      "Healthy",
+      "Foreign",
+      "Initializing"
+    ],
+    "correct": "Initializing"
+  },
+  {
+    "id": 184,
+    "question": "___________ is created on the active partition to allow the selection of the operating system to boot on startup.",
+    "options": [
+      "Boot.pnp",
+      "Boot.fnf",
+      "Boot.ini",
+      "Boot.sns"
+    ],
+    "correct": "Boot.ini"
+  },
+  {
+    "id": 185,
+    "question": "__________ is a monitoring tool that shows a log of events that can be used to troubleshoot issues on a Windows-based system.",
+    "options": [
+      "Device Manager",
+      "Event Viewer",
+      "Services",
+      "Task Manager"
+    ],
+    "correct": "Event Viewer"
+  },
+  {
+    "id": 186,
+    "question": "Which of the following is not an example of a hypervisor?",
+    "options": [
+      "Windows subsystem for Linux",
+      "Virtual Box",
+      "VMWare workstation",
+      "Hyper-V"
+    ],
+    "correct": "Windows subsystem for Linux"
   }
-  
 ]
