@@ -1306,14 +1306,14 @@
   },
   {
     "id": 120,
-    "question": "PSU Stands For?",
+    "question": "HI.....!",
     "options": [
-      "PGA",
-      "LGA",
-      "BGA",
-      "ZIF"
+      "Hello",
+      "what",
+      "sorry",
+      "heyyyy"
     ],
-    "correct": "LGA"
+    "correct": "Hello"
   },
   {
     "id": 121,
@@ -2647,4 +2647,3 @@
     "correct": "Start > Run > cmd"
   }
 ]
-bios
