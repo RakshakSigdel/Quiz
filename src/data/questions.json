@@ -759,14 +759,14 @@
   },
   {
     "id": 70,
-    "question": "Choose mandatory components to build a PC. (MULTIPLE ANSWERS)",
+    "question": "Choose mandatory components to build a PC. ",
     "options": [
-      "CPU FAN",
-      "NIC CARD",
-      "HARD DISK",
-      "THERMAL PASTE"
+      "CPU FAN AND HARD DISK",
+      "NIC CARD, THERMAL PASTE AND HARD DISK",
+      "HARD DISK CPU FAN AND THERMAL PASTE",
+      "NIC CARD, CPU FAN, THERMAL PASTE AND NIC CARD"
     ],
-    "correct": "CPU FAN, HARD DISK"
+    "correct": "HARD DISK CPU FAN AND THERMAL PASTE"
   },
   {
     "id": 71,
@@ -803,12 +803,12 @@
     "id": 74,
     "question": "What are two cables required while installing a SATA HARD DISK?",
     "options": [
-      "SATA Data Cable",
-      "Sata Ethernet Cable",
-      "Sata Power Cable",
-      "Molex Cable"
+      "SATA Data Cable and Molex xable",
+      "Sata Ethernet Cable and sata power cable",
+      "Sata Power Cable and Sata Data Cable",
+      "Molex Cable and sata Data Cable"
     ],
-    "correct": "SATA Data Cable, Sata Power Cable"
+    "correct": "Sata Power Cable and Sata Data Cable"
   },
   {
     "id": 75,
