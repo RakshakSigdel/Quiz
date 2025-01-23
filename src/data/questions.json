@@ -1665,9 +1665,7 @@
       "Event Viewer",
       "Registry Editor"
     ],
-    "correct": [
-      "BIOS"
-    ]
+    "correct": "BIOS"
   },
   {
     "id": 153,
@@ -2649,3 +2647,4 @@
     "correct": "Start > Run > cmd"
   }
 ]
+bios
