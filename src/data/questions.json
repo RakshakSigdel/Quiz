@@ -1623,5 +1623,316 @@
       "RAID 10"
     ],
     "correct": "RAID 10"
+  },
+  {
+    "id": 149,
+    "question": "Which option should be selected when you have to print on both sided of the paper?",
+    "options": [
+      "Simplex",
+      "Duplex",
+      "Half duplex",
+      "Color mode"
+    ],
+    "correct": "Duplex"
+  },
+  {
+    "id": 150,
+    "question": "How many pins are on the print head of a dot matrix printer?",
+    "options": [
+      "10",
+      "24",
+      "23",
+      "8"
+    ],
+    "correct": "24"
+  },
+  {
+    "id": 151,
+    "question": "Moving your CPU’s speed beyond its normal operating range is called _______",
+    "options": [
+      "Overclocking",
+      "Overdriving",
+      "Overpowering",
+      "CPU throttling"
+    ],
+    "correct": "Overclocking"
+  },
+  {
+    "id": 152,
+    "question": "Refer to the exhibit. Which three ports are identified with the letters A, B, and C in the Picture? (Choose three.)",
+    "options": [
+      "Modem",
+      "Network",
+      "Parallel",
+      "PS/2",
+      "Serial",
+      "VGA"
+    ],
+    "correct": ["Modem", "Network", "VGA"]
+  },
+  {
+    "id": 153,
+    "question": "Which component is installed to keep the CPU cool?",
+    "options": [
+      "Motherboard",
+      "Heat sink",
+      "Processor",
+      "Floppy Drive"
+    ],
+    "correct": "Heat sink"
+  },
+  {
+    "id": 154,
+    "question": "Which chip acts as a clock to keep the current date and the time?",
+    "options": [
+      "CMOS",
+      "DVRAM",
+      "RAM",
+      "ROM"
+    ],
+    "correct": "CMOS"
+  },
+  {
+    "id": 155,
+    "question": "In the _____________step of the laser printing process, the primary charge roller applies a negatively charged layer over the photosensitive drum and prepares for the imaging process.",
+    "options": [
+      "Writing",
+      "Conditioning",
+      "Transferring",
+      "Developing"
+    ],
+    "correct": "Conditioning"
+  },
+  {
+    "id": 156,
+    "question": "How do you open the Registry Editor from the command prompt?",
+    "options": [
+      "regedit",
+      "reg",
+      "regeditor",
+      "rgstry"
+    ],
+    "correct": "regedit"
+  },
+  {
+    "id": 157,
+    "question": "The daisy wheel printers is classified under which type of printers?",
+    "options": [
+      "Solid ink printer",
+      "Non-impact printers",
+      "Laser printer",
+      "Impact printer"
+    ],
+    "correct": "Impact printer"
+  },
+  {
+    "id": 158,
+    "question": "What is the full form of RIP in the processing step of laser printing process?",
+    "options": [
+      "Raster Imaging Processor",
+      "Rabble Imaging Processor",
+      "Rabid Imaging Processor",
+      "Reason Imaging Processor"
+    ],
+    "correct": "Raster Imaging Processor"
+  },
+  {
+    "id": 159,
+    "question": "What is the shortcut key to used to print a document?",
+    "options": [
+      "Window + P",
+      "Shift + P",
+      "Alt + P",
+      "Ctrl + P"
+    ],
+    "correct": "Ctrl + P"
+  },
+  {
+    "id": 160,
+    "question": "Which unit is used for measuring the quality of inkjet printer?",
+    "options": [
+      "Dots per centimetre",
+      "Line per centimetre",
+      "Dots per inch",
+      "Line per inch"
+    ],
+    "correct": "Dots per inch"
+  },
+  {
+    "id": 161,
+    "question": "Which of the following is not an interface used by printers?",
+    "options": [
+      "Ethernet",
+      "PS2",
+      "Serial",
+      "SCSI"
+    ],
+    "correct": "PS2"
+  },
+  {
+    "id": 162,
+    "question": "Which of the following is used to measure the speed of impact printers?",
+    "options": [
+      "Pages per minute",
+      "Characters per minute",
+      "Pages per second",
+      "Characters per second"
+    ],
+    "correct": "Characters per minute"
+  },
+  {
+    "id": 163,
+    "question": "Which case type is typically used for servers?",
+    "options": [
+      "Mini Tower",
+      "Mid Tower",
+      "Full Tower",
+      "Desktop"
+    ],
+    "correct": "Full Tower"
+  },
+  {
+    "id": 164,
+    "question": "Which power device would be best to attach to your computer if you were having under-voltage power problems?",
+    "options": [
+      "Surge protector",
+      "Battery",
+      "Line Container",
+      "UPS"
+    ],
+    "correct": "UPS"
+  },
+  {
+    "id": 165,
+    "question": "What is the maximum speed of USB 2.0 in Mbps?",
+    "options": [
+      "1.5",
+      "12",
+      "60",
+      "480"
+    ],
+    "correct": "480"
+  },
+  {
+    "id": 166,
+    "question": "Which of the following memory has the shortest access time?",
+    "options": [
+      "External Memory",
+      "Register",
+      "Virtual Memory",
+      "Cache Memory"
+    ],
+    "correct": "Cache Memory"
+  },
+  {
+    "id": 167,
+    "question": "Which laptop device is commonly hot-swappable?",
+    "options": [
+      "Display",
+      "Internal Hard Drive",
+      "PC Card",
+      "Ram"
+    ],
+    "correct": "PC Card"
+  },
+  {
+    "id": 168,
+    "question": "Which of the connection types lets a printer connect to an RJ45 connector?",
+    "options": [
+      "Network",
+      "Serial",
+      "Parallel",
+      "Wi-fi"
+    ],
+    "correct": "Network"
+  },
+  {
+    "id": 169,
+    "question": "Which interface is most popular for flatbed scanners today?",
+    "options": [
+      "USB",
+      "SCSI",
+      "Serial interface",
+      "Parallel interface"
+    ],
+    "correct": "USB"
+  },
+  {
+    "id": 170,
+    "question": "Which of the following devices is used to hold paper in the printer?",
+    "options": [
+      "Paper tray",
+      "Paper cup",
+      "Paper board",
+      "Paper weight"
+    ],
+    "correct": "Paper tray"
+  },
+  {
+    "id": 171,
+    "question": "What is the easiest, least expensive way to extend the life of a laptop and keep it in optimal working order?",
+    "options": [
+      "Replace parts regularly",
+      "Clean the laptop regularly",
+      "Do a clean reinstall of the OS",
+      "Back up important information monthly"
+    ],
+    "correct": "Clean the laptop regularly"
+  },
+  {
+    "id": 172,
+    "question": "What is the official name for the IDE/ EIDE family of drive interfaces?",
+    "options": [
+      "SCSI",
+      "ATA",
+      "SATA",
+      "TAT"
+    ],
+    "correct": "ATA"
+  },
+  {
+    "id": 173,
+    "question": "Which tool would you use to test a 24-pin ATX 12v power connector?",
+    "options": [
+      "Torx wrench",
+      "Multimeter",
+      "Receptacle tester",
+      "Tone and probe kit"
+    ],
+    "correct": "Multimeter"
+  },
+  {
+    "id": 174,
+    "question": "___________ is the fastest and most modern interface used as an expansion method for external peripherals like mice, webcams, scanners, printers, and so on and is popular on laptops and desktop alike.",
+    "options": [
+      "Parallel",
+      "PS/2",
+      "USB",
+      "ATA"
+    ],
+    "correct": "USB"
+  },
+  {
+    "id": 175,
+    "question": "Which of the following memory unit that processor can access more rapidly?",
+    "options": [
+      "Main Memory",
+      "Virtual Memory",
+      "Cache memory",
+      "Read Only Memory"
+    ],
+    "correct": "Cache memory"
+  },
+  {
+    "id": 176,
+    "question": "Which scanner scans the document by physically rotating them?",
+    "options": [
+      "Handheld scanner",
+      "Flatbed scanner",
+      "Drum scanner",
+      "3d scanner"
+    ],
+    "correct": "Drum scanner"
   }
+  
 ]
