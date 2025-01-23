@@ -52,7 +52,7 @@
       "c) Depends",
       "d) None of the above"
     ],
-    "correct": "a) True"
+    "correct": "c) Depends"
   },
   {
     "id": 6,
@@ -74,18 +74,18 @@
       "c) BIOS",
       "d) None of the above"
     ],
-    "correct": "c) BIOS"
+    "correct": "a) NBC"
   },
   {
     "id": 8,
     "question": "Which is the faster component?",
     "options": [
-      "a) PCl",
-      "b) RAM",
-      "c) 1 GHz is equivalent to ?",
-      "d) None of the above"
+      "a) ussain Bolt",
+      "b) Sujan Sir",
+      "c) Nishesh sir",
+      "d) Aawas Sir"
     ],
-    "correct": "c) 1 GHz is equivalent to ?"
+    "correct": "a) ussain Bolt"
   },
   {
     "id": 9,
@@ -140,7 +140,7 @@
       "c) Files",
       "d) Arrays"
     ],
-    "correct": "b) Processes"
+    "correct": "a) Programs"
   },
   {
     "id": 14,
@@ -184,7 +184,7 @@
       "c) CPU Throttle",
       "d) Under Clocking"
     ],
-    "correct": "b) Under Volt"
+    "correct": "c) CPU Throttle"
   },
   {
     "id": 18,
@@ -193,13 +193,13 @@
       "a) HDD",
       "b) SSD",
       "c) Magnetic Tapes",
-      "d) None of the above"
+      "d) All of the above"
     ],
-    "correct": "c) Magnetic Tapes"
+    "correct": "d) All of the above"
   },
   {
     "id": 19,
-    "question": "Full Form of EEPROM?",
+    "question": "choose EEPROM?",
     "options": [
       "a) EPROM",
       "b) EEPROM",
@@ -215,9 +215,9 @@
       "a) SDRAM",
       "b) DRAM",
       "c) SRAM",
-      "d) None of the above"
+      "d) All of the above"
     ],
-    "correct": "c) SRAM"
+    "correct": "d) All of the above"
   },
   
   {
@@ -227,9 +227,9 @@
       "a) SDRAM",
       "b) DRAM",
       "c) SRAM",
-      "d) None of the above"
+      "d) All of the above"
     ],
-    "correct": "c) SRAM"
+    "correct": "d) All of the above"
   },
   {
     "id": 22,
@@ -238,9 +238,9 @@
       "SDRAM",
       "VRAM",
       "DRAM",
-      "SRAM"
+      "All of the above"
     ],
-    "correct": "SDRAM"
+    "correct": "All of the above"
   },
   {
     "id": 23,
@@ -260,9 +260,9 @@
       "EPROM",
       "EEPROM",
       "PEROM",
-      "PROM"
+      "All of the Above"
     ],
-    "correct": "EPROM"
+    "correct": "All of the Above"
   },
   {
     "id": 25,
@@ -370,7 +370,7 @@
       "Revolution Per Minute",
       "Rotation Per Minute"
     ],
-    "correct": "Rotation Per Minute"
+    "correct": "Revolution Per Minute"
   },
   {
     "id": 35,
@@ -379,9 +379,9 @@
       "SSD are Faster Drives",
       "SSD are Cheaper",
       "SSD uses low power",
-      "Data can be easily recovered"
+      "SSD are faster and uses low power"
     ],
-    "correct": "SSD are Faster Drives"
+    "correct": "SSD are faster and uses low power"
   },
   {
     "id": 36,
@@ -440,7 +440,7 @@
   },
   {
     "id": 41,
-    "question": "Which component helps cool the CPU? (Choose two.)",
+    "question": "Which component helps cool the CPU?",
     "options": [
       "Heat Sink and Fan",
       "Fan and thermal paste",
@@ -458,7 +458,7 @@
       "Cathode Ray Tube",
       "Optical Display Unit"
     ],
-    "correct": "Cathode Ray Tube"
+    "correct": "Video Display Unit"
   },
   {
     "id": 43,
@@ -506,14 +506,14 @@
   },
   {
     "id": 47,
-    "question": "What companies dominate the chipset market? (Select Two.)",
+    "question": "What companies dominate the chipset market? ",
     "options": [
-      "AMD",
-      "INTEL",
-      "Nvidia",
-      "Dell"
+      "DELL and ACER",
+      "Nvidia and INTEL",
+      "AMD and HDMI",
+      "AMD and INTEL"
     ],
-    "correct": "AMD, INTEL"
+    "correct": "AMD and INTEL"
   },
   {
     "id": 48,
@@ -550,7 +550,7 @@
   },
   {
     "id": 51,
-    "question": "What two cables does a Hard Disk require? (Choose two.)",
+    "question": "What two cables does a Hard Disk require? ",
     "options": [
       "Power Cable and AC cable",
       "AC Cable and data cable",
@@ -583,7 +583,7 @@
   },
   {
     "id": 54,
-    "question": "What are the two types of fault caused by electrostatic discharge? (Choose two.)",
+    "question": "What are the two types of fault caused by electrostatic discharge? ",
     "options": [
       "Direct Fault and Latent Fault",
       "Indirect Fault and Unknown Fault",
