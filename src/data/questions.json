@@ -219,55 +219,17 @@
     ],
     "correct": "c) SRAM"
   },
-  {
-    "id": 17,
-    "question": "It is used to enhance performance of the CPU where multiple pieces of code would be executing simultaneously on each pipeline.",
-    "options": [
-      "HyperLooping",
-      "Hyper Threading",
-      "Multi Threading",
-      "Multi Tasking"
-    ],
-    "correct": "Hyper Threading"
-  },
-  {
-    "id": 18,
-    "question": "Makes processor work at a faster speed than normal but can result in damage to the CPU.",
-    "options": [
-      "Turbo Boost",
-      "Over-Clocking",
-      "Multi Threading",
-      "CPU Throttle"
-    ],
-    "correct": "Over-Clocking"
-  },
-  {
-    "id": 19,
-    "question": "Processor runs at less than the rated speed to save power and produce less heat. Commonly used in laptops and mobile devices.",
-    "options": [
-      "CPU Clocking",
-      "CPU Throttling",
-      "Under Volt",
-      "Under Clocking"
-    ],
-    "correct": "Under Clocking"
-  },
-  {
-    "id": 20,
-    "question": "Choose the Secondary Memories.",
-    "options": [
-      "HDD",
-      "SSD",
-      "Magnetic Tapes",
-      "Cache"
-    ],
-    "correct": "HDD"
-  },
+  
   {
     "id": 21,
-    "question": "Full form of EEPROM?",
-    "options": [],
-    "correct": "Electrically Erasable Programmable Read-Only Memory"
+    "question": "Choose the Types of Ram.",
+    "options": [
+      "a) SDRAM",
+      "b) DRAM",
+      "c) SRAM",
+      "d) None of the above"
+    ],
+    "correct": "c) SRAM"
   },
   {
     "id": 22,
