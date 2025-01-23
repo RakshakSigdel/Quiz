@@ -54,7 +54,7 @@ function QuestionForm() {
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center w-full lg:w-3/5">
         <h1 className="text-4xl font-extrabold text-gray-800 mb-6 shadow-lg">
-          Welcome to the Quiz App!
+          Welcome to the Quiz App -_-
         </h1>
         <form
           onSubmit={handleSubmit}
